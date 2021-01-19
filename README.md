@@ -7,5 +7,8 @@ The tested design patterns are summarization patterns:
 - Counting with Counters
 
 # Cluster configuration
-1 master node
-2 worker nodes
+- 1 master node
+- 2 worker nodes
+Each node is running in a Virtual Machine with Ubuntu 16.04 LTS with 8GB of RAM.
+Master node storage is 20GB.
+Worker nodes storage is 10GB each.
